@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+
+
+#AUTHOR {
+    border-radius: 500px;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    left: 100px;
+    margin-top: 45px;
+    
+}
+
+#LOUIS {
+   
+    margin-top: 10px;
+    top: 100px;
+}
+
+a {
+    font-size: 16px;
+    margin-top: 25px;   
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.maincontent {
+    margin-top: -50rem;
+}
+
+#HOME {
+    margin-top: 40px;
+}
+
+
+.cinza {
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    width: 21.7%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: center;
+}
+
+
+.hello {
+ font-size: 24px;
+ margin-left: 1200px;
+ padding-top: 250px;
+ color: #bfbfbf;
+}
+
+.louie {
+ margin-left: 1200px;
+ padding-top: 10px;
+ color: #000000;
+ font-size: 40px;
+}
+
+.photographer {
+ font-size: 18px;
+ margin-left: 1200px;
+ padding-top: 30px;
+ color: #999999;
+
+}
+
+.assinature {
+ font-size: 40px;
+ margin-left: 1200px;
+ padding-top: 30px;
+ color: #000000CC;
+ font-family: "Herr Von Muellerhoff", cursive;
+}
+
+.louieopacity {
+ position: absolute;
+ font-size: 70px;
+ margin-left: 1150px;
+ padding-top: 230px;
+ color: #bfbfbf;
+ opacity: 30%;
+}
+
+.hello {
+    z-index: 99;
+}
+
+#DOURADO {
+    color: #ccb78f;
+}
+
+.Bio {
+    position: absolute;
+    padding-left: 55vw;
+}
+
+.instagram {
+    margin-top: 30vw;
+    font-size: 15px;
+    color: #000000CC;
+}
+
+.MULHERES {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 35vw;     
+}
+
+.Bio {
+    display: flex;
+}
+
+
+.imagens {
+    display: flex;
+    padding-left: 35vw;    
+}
+
+.MULHERES {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    position: relative;
+    
+}
+
+.footer {
+    background-color: #242423;
+    height: 32rem;
+    margin-top: 75px;
+}
+
+.MOÇAS {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+
+.col1 {
+    position: absolute;
+    font-size: 12px;
+    left: 40rem;
+    margin-top: 20px;
+}
+
+.col2 {
+    position: absolute;
+    left: 30rem;
+    margin-top: 20px;
+    color: white;
+    display: block;
+    padding-left: 32rem;
+    font-size: 12px;
+    list-style: none;
+    
+}
+
+#november {
+    margin-top: 40px;
+}
+
+.col2 li {
+    color: rgba(255, 255, 255, 0.5) !important;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#recent {
+    color: white;
+    
+}
+
+.col3 {
+    position: absolute;
+    left: 40rem;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5) !important;
+    display: block;
+    padding-left: 32rem;
+    font-size: 12px;
+    list-style: none;
+}
+
+.question {
+    color: white;
+}
+
+
+.gold {
+    background-color: #ccb78f;
+    height: 13.5rem;
+    padding-left: 50rem;
+    margin: 0;
+}
+
+.collection {
+    font-size: 40px;
+    margin-top: 13px;
+}
+
+.home1 {
+    font-size: 13px;
+    
+}
+
+.collection2 {
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.myc {
+    position: absolute;
+    top: 40px;
+}
+
+.femeas{
+
+    top: 220px;
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 20px;
+    margin-left: 25%;
+    right: 100px;
+    padding-right: 7rem;
+    
+}
+
+.femeas img{
+    width: 370px;
+    height: 200px;
+    object-fit: cover;
+    aspect-ratio: 16/9;
+}
+
+#aboutimg {   
+    width: 60%;
+    height: 70vh;
+    object-fit: cover; 
+}
+
+.mainabout {
+    position: absolute;
+    margin-top: -50rem;
+}
+
+
+
+.footerabout {
+    height: 10rem;
+    background-color: #242423;
+}
